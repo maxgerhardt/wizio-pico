@@ -6,7 +6,7 @@ from __future__ import print_function
 from os.path import join
 from SCons.Script import (AlwaysBuild, Builder, COMMAND_LINE_TARGETS, Default, DefaultEnvironment)
 from colorama import Fore
-from pioasm import dev_pioasm
+from wpioasm import dev_pioasm # https://github.com/Wiz-IO/wizio-pico/issues/98#issuecomment-1128747885
 
 env = DefaultEnvironment()
 print( '<<<<<<<<<<<< ' + env.BoardConfig().get("name").upper() + " 2021 Georgi Angelov >>>>>>>>>>>>" )
