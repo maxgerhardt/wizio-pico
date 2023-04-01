@@ -11,6 +11,7 @@ jobs:
         example:
           - "examples/arduino-blinky"
           - "examples/picosdk-blinky"
+          - "examples/picosdk-littlefs-freertos"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3

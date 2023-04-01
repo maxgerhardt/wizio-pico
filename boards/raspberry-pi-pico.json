@@ -3,7 +3,16 @@
   "url": "https://github.com",
   "vendor": "Raspberry Pi",  
   "frameworks": [ "baremetal", "arduino" ],
-
+  "hwids": [
+    [
+      "0x2E8A",
+      "0x00C0"
+    ],
+    [
+      "0x2E8A",
+      "0x000A"
+    ]
+  ],
   "build": {
     "core"      : "RP2040",
     "variant"   : "raspberry-pi-pico",    
